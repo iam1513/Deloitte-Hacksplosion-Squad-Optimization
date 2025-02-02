@@ -23,6 +23,7 @@ const PlayerCardLeftSection = () => {
                     { label: "Weight", value: player.weight },
                     { label: "Physique", value: player.physique },
                     { label: "Power", value: player.power },
+                    { label: "Potential", value: player.potential },
                 ].map((attr, index) => (
                     <div key={index} className='playercard-section-physical-attributes-attribute'>
                         <span className='attribute-label'>{attr.label}</span>

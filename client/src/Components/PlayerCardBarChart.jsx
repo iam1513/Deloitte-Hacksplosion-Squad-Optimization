@@ -123,7 +123,7 @@ const PlayerStatsBarChart = ({ player }) => {
     };
 
     return (
-        <div style={{ width: '100%', height: '300px' }}>
+        <div style={{ height: '300px', width: "500px" }}>
             <Bar data={data} options={options} />
         </div>
     );

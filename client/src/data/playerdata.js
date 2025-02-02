@@ -1,7 +1,7 @@
 const players = [
     {
         image_url: "https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg",
-        name: "Messi",
+        name: "Lionel Messi",
         position: "cf",
         price: 1000000,
         overall_score: 90,

@@ -29,7 +29,7 @@ const PlayerScoreDial = ({ player }) => {
     };
 
     return (
-        <div style={{ position: "relative", width: "200px", height: "200px" }}>
+        <div style={{ position: "relative", width: "300px", height: "300px" }}>
             <Doughnut data={data} options={options} />
             <div
                 style={{

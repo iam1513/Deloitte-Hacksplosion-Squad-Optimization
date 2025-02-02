@@ -7,7 +7,6 @@ import {
     Legend,
 } from 'chart.js';
 
-// Register Chart.js components
 ChartJS.register(
     ArcElement,
     Tooltip,
@@ -15,7 +14,7 @@ ChartJS.register(
 );
 
 const PlayerStatsDoughnutChart = ({ player }) => {
-    // Chart data
+
     const data = {
         labels: ['Potential', "Deficiency"],
         datasets: [

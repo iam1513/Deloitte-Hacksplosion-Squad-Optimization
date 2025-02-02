@@ -27,13 +27,14 @@ const PlayerCard = () => {
                     <span className='price-label'>Market Value</span>
                     <span className='price-value'>${player.price}</span>
                 </div>
+                <button className='add-this-player-button'>Add this player</button>
             </div>
 
             {/* Right Section */}
             <div className='playercard-section-3'>
                 <h1 className='player-stats-heading'>Player Stats</h1>
                 <PlayerCardRightSection />
-                <button className='add-this-player-button'>Add this player</button>
+
             </div>
         </div>
     );
