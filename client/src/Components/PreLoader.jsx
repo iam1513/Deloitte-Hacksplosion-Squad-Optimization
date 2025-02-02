@@ -17,7 +17,7 @@ const PreLoader = () => {
                 style={{
                     width: 400,
                     display: "flex",
-                    alignItems: "center",
+                    alignItems: "center", 
                     justifyContent: "center"
                 }}
             >
