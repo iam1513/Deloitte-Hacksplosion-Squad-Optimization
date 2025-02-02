@@ -10,7 +10,7 @@ const PlayerScoreDial = ({ player }) => {
         datasets: [
             {
                 data: [player?.potential || 0, 100 - (player?.potential || 0)],
-                backgroundColor: ["rgba(54, 162, 235, 0.6)", "rgba(200, 200, 200, 0.3)"],
+                backgroundColor: ["#3DB54B", "#DD360F"],
                 borderWidth: 1,
                 circumference: 180, // Half-doughnut
                 rotation: 270, // Starts at bottom
@@ -40,10 +40,15 @@ const PlayerScoreDial = ({ player }) => {
                     textAlign: "center",
                 }}
             >
-                <div style={{ fontSize: "24px", fontWeight: "bold", color: "#333" }}>
+                <div style={{ fontSize: "24px", fontWeight: "bold", color: "#333", paddingTop: "80px" }}>
                     {player?.potential}%
                 </div>
+
             </div>
+            <h3 style={{
+                textAlign: "center",
+                marginTop: "-30px"
+            }}>Overall Score</h3>
         </div>
     );
 };

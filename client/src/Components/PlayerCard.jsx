@@ -33,6 +33,7 @@ const PlayerCard = () => {
             <div className='playercard-section-3'>
                 <h1 className='player-stats-heading'>Player Stats</h1>
                 <PlayerCardRightSection />
+                <button className='add-this-player-button'>Add this player</button>
             </div>
         </div>
     );
